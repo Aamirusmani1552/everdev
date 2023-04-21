@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "everdev": "^1.6.1"
+    "@eversdk/core": "^1.42.1",
+    "@eversdk/lib-node": "^1.42.1",
+    "everdev": "^1.6.1",
+    "ts-node": "^10.9.1"
   }
 }
