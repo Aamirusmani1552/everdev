@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen-esm --config codegen.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,14 @@
     "@eversdk/core": "^1.42.1",
     "@eversdk/lib-node": "^1.42.1",
     "everdev": "^1.6.1",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.0.0",
     "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^3.3.1",
+    "@graphql-codegen/client-preset": "^3.0.1",
+    "@graphql-codegen/typescript": "^3.0.4",
+    "@graphql-codegen/typescript-operations": "^3.0.4"
   }
 }

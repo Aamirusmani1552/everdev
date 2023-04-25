@@ -48,8 +48,8 @@ const getWalletTransactions = async()=>{
             }
           }`
 
-        const {result}  = await client.net.query({query})
-        console.log(`The wallet transactions are ${result.data.blockchain.account.transactions}`);
+        const result  = await client.net.query({query})
+        console.log(`The wallet transactions are`, result);
         client.close();
     }
     catch (error) {
